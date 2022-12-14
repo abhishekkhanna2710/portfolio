@@ -1,0 +1,121 @@
+.containers {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1A202C;
+}
+
+.containers span {
+    color: #F34B20;
+}
+
+.containers h1 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: white;
+    border: 2px solid white;
+    width: 16%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+
+}
+
+#txtarea {
+    width: 95%;
+    height: 100px;
+}
+
+.contact-details {
+    width: 40%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    background: #d7730f;
+}
+
+.contact-details h2 {
+    text-align: center;
+    color: white;
+}
+
+.contact-details input {
+    padding: 5px 10px;
+    width: 90%;
+    border-radius: 3px;
+}
+
+.contact-details .myDetails {
+    width: 50%;
+}
+
+.containers h1 {
+    text-align: center;
+}
+
+#submit {
+    background-color: #201c1b;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.myDetails {
+    margin-left: 100px;
+    width: 30%;
+}
+
+.myDetails i {
+    font-size: 23px;
+
+}
+
+.myDetails p {
+    font-size: 19px;
+    color: white;
+}
+
+.myDetails span {
+    color: white;
+
+}
+
+.social_Links i {
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+}
+.social_Links i:hover {
+    border: 2px solid white;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+@media only screen and (max-width:820px) {
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .myDetails {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .containers h1 {
+        width: 80%;
+    }
+
+    .contact-details {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
