@@ -91,6 +91,10 @@
     border: none;
 }
 
+.my_image {
+    width:480px;
+}
+
 
 .my_image img {
     width: 100%;

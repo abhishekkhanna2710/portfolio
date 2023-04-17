@@ -1,5 +1,7 @@
 import aboutstyle from "./About.module.css"
 import portimg2 from "../Images/port-img-2.png"
+// import myNewImage from "../Images/my_new_Image.png"
+import myNewImage from "../Images/CourtNewImage.png"
 
 function About() {
     return (
@@ -9,7 +11,7 @@ function About() {
             <div className={aboutstyle.about_me}>
                 <div className={aboutstyle.left_Img}>
                     {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjOwwIe6mO1Jp1WNrPJZIuNBQl6A18CA1OC2Hdc8OXYGh5YnaMVLLHL9b2eBscRb4F4A&usqp=CAU" alt="" /> */}
-                    <img src={portimg2} alt="" />
+                    <img src={myNewImage} alt="" />
                 </div>
 
                 <div className={aboutstyle.about_content}>
@@ -37,9 +39,9 @@ function About() {
                     <h3>My Interests</h3>
                     <div className={aboutstyle.interest}>
                         <p>Music</p>
-                        <p>Travel</p>
-                        <p>Movie</p>
-                        <p>Photo</p>
+                        <p>Travelling</p>
+                        <p>Movies</p>
+                        <p>Books</p>
                     </div>
                 </div>
             </div>
@@ -52,4 +54,4 @@ function About() {
 }
 
 
-export default About
+export default About;

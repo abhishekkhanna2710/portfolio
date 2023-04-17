@@ -1,6 +1,7 @@
 import introStyle from "./Intro.module.css"
-import PDF from "../Images/Abhishek_Khanna_c.v.pdf"
-import myImage from "../Images/port-image.jpg"
+import PDF from "../Images/Abhishek_Khanna_Resume.pdf"
+// import myImage from "../Images/port-image.jpg"
+import myImage from "../Images/myImgaess.png"
 
 function Intro() {
     return (

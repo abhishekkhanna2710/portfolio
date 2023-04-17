@@ -1,5 +1,6 @@
 import navstyle from "./Navbar.module.css"
-import PDF from "../Images/Abhishek_Khanna_c.v.pdf"
+// import PDF from "../Images/Abhishek_Khanna_c.v.pdf"
+import PDF from "../Images/Abhishek_Khanna_Resume.pdf"
 import { Link } from 'react-scroll'
 import Logo from "../Images/logo.png"
 
