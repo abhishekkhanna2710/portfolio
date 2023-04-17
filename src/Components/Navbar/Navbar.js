@@ -13,7 +13,7 @@ function Navbar() {
             <div className={navstyle.navbar} id={navstyle.myTopnav}>
 
                 <div className={navstyle.logo}>
-          <img src={Logo} alt="" />
+                    <img src={Logo} alt="" />
                 </div>
 
                 <div className={navstyle.nav_links}>
@@ -79,7 +79,7 @@ function Navbar() {
                         </li>
 
 
-                        <button> <a href={PDF} download >Resume</a> </button>
+                        <button> <a href="https://drive.google.com/file/d/1shXU-IH-X5Ij_D2QuOudpzm1j3DV6w3R/view?usp=share_link" target="_blank">Resume</a> </button>
                     </ul>
                 </div>
             </div>

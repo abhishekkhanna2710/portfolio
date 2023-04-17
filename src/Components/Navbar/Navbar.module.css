@@ -40,14 +40,14 @@
 }
 
 .nav_links button:hover {
-    background-color: #ffe600;
-    border: 2px solid red;
+    background-color: #c50808;
+
 
 }
 
-.nav_links button a:hover {
+/* .nav_links button a:hover {
     color: black;
-}
+} */
 
 .nav_links button a {
     text-decoration: none;
