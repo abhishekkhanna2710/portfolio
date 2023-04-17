@@ -16,7 +16,7 @@ function Project() {
                     </div>
                     <div className={projectstyle.procontent}>
                         <h2>Properto (DashBoard)</h2>
-                        <p>Properto is a ultimately MERN based Application which is fully functional & dynamic website. Basically it performs complex CRUD operations for property Management. Moreover it has also Admin panel page</p>
+                        <p> Properto is an Individually MERN Stack application based on Property Management System . It basically perform complex CRUD operations. It is fully functional & dynamic website. Moreover it has also Admin panel page</p>
                         <h4>This is my Individual Project which completed within a week</h4>
                         <div className={projectstyle.tech}>
                             <span><b> Tech Stack</b></span>
