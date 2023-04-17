@@ -50,7 +50,7 @@ function Project() {
                         <h4>Implemented complete Backend into this, individually</h4>
                         <div className={projectstyle.tech}>
                             <span><b> Tech Stack</b></span>
-                            <div style={{ display: "flex" }}>
+                            <div style={{ display: "flex", flexWrap: 'wrap' }}>
 
                                 <p>React</p>
                                 <p>React Redux</p>
@@ -78,7 +78,7 @@ function Project() {
                         <h4>Implemented Authentication, BMI Calculation, BMI Data</h4>
                         <div className={projectstyle.tech}>
                             <span><b> Tech Stack</b></span>
-                            <div style={{ display: "flex" }}>
+                            <div style={{ display: "flex", flexWrap: 'wrap' }}>
 
                                 <p>React</p>
                                 <p>MongoDb</p>
@@ -106,7 +106,7 @@ function Project() {
                         <h4>There are 5 Collaborators in project and completed in 5 days</h4>
                         <div className={projectstyle.tech}>
                             <span><b> Tech Stack</b></span>
-                            <div style={{ display: "flex" }}>
+                            <div style={{ display: "flex", flexWrap: 'wrap' }}>
 
                                 <p>HTML</p>
                                 <p>CSS</p>
