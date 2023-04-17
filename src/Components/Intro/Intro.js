@@ -13,7 +13,8 @@ function Intro() {
                     <h2>Full Stack Web Developer</h2>
                     <p>Very passionate , Enthusiastic and Dedicated towards my work</p>
                     <div className={introStyle.btns}>
-                        <button> <a href={PDF} download >Download CV</a> </button>
+                        <button> <a href="https://drive.google.com/file/d/1shXU-IH-X5Ij_D2QuOudpzm1j3DV6w3R/view" target="_blank" >Download CV</a> </button>
+                        {/* <button> <a href={PDF} download >Download CV</a> </button> */}
                         <button> <a href="tel:8950931355">Contact me</a></button>
                     </div>
                 </div>
