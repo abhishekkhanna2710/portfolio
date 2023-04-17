@@ -3,6 +3,8 @@ import image1 from "../Images/bewkoof.png"
 import image2 from "../Images/bookmyshow.png"
 import image3 from "../Images/zoom_car.png"
 import image4 from "../Images/properto.jpg"
+import image5 from "../Images/bmi_image.png"
+
 function Project() {
     return (
         <div className={projectstyle.container} id="project_page">
@@ -17,7 +19,7 @@ function Project() {
                     <div className={projectstyle.procontent}>
                         <h2>Properto (DashBoard)</h2>
                         <p> Properto is an Individually MERN Stack application based on Property Management System . It basically perform complex CRUD operations. It is fully functional & dynamic website. Moreover it has also Admin panel page</p>
-                        <h4>This is my Individual Project which completed within a week</h4>
+                        <h4>This is my Individual Project which completed within 10 days</h4>
                         <div className={projectstyle.tech}>
                             <span><b> Tech Stack</b></span>
                             <div style={{ display: "flex", flexWrap: 'wrap' }}>
@@ -25,7 +27,7 @@ function Project() {
                                 <p>Refine</p>
                                 <p>Express Js</p>
                                 <p>Node Js</p>
-                                <br />
+                                {/* <br /> */}
                                 <p>MongoDB</p>
                                 <p>Cloudinary</p>
                             </div>
@@ -40,26 +42,54 @@ function Project() {
                 {/* Zoom car pro*/}
                 <div className={projectstyle.portfolio}>
                     <div className={projectstyle.proImg}>
-                        <img src={image3} alt="Book-my-Show" />
+                        <img src={image3} alt="zoom car" />
                     </div>
                     <div className={projectstyle.procontent}>
                         <h2>Zoom Car (IIIrd Price)</h2>
-                        <p>Zoomcar, is an Indian self-drive car rental company with a pro version of the original Website. Here we can rent and purchase new and old cars.</p>
-                        <h4>This is a collaborative project created by 4 other team members in 6 days</h4>
+                        <p>Built a Full-Stack Zoom Car Pro Application Using MERN Technologies to Offer Seamless Car Rental Experience. It provides reliable performance and efficient data management. This is my Individual Project.</p>
+                        <h4>Implemented complete Backend into this, individually</h4>
                         <div className={projectstyle.tech}>
                             <span><b> Tech Stack</b></span>
                             <div style={{ display: "flex" }}>
 
-                                <p>HTML</p>
-                                <p>CSS</p>
                                 <p>React</p>
                                 <p>React Redux</p>
+                                <p>MongoDb</p>
+                                <p>Node Js</p>
+                                <p>Express JS</p>
                             </div>
                         </div>
 
                         <div className={projectstyle.buttons}>
                             <a href="https://github.com/abhishekkhanna2710/ZoomCar" target="_blank"><i class="fa-brands fa-github"></i></a>
                             <a href="https://zoomcarpro.netlify.app/" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {/* Zoom car pro*/}
+                <div className={projectstyle.portfolio}>
+                    <div className={projectstyle.proImg}>
+                        <img src={image5} alt="zoom car" />
+                    </div>
+                    <div className={projectstyle.procontent}>
+                        <h2>BMI Calculator</h2>
+                        <p>Developed a BMI Calculator web application using MERN stack
+                            technologies and integrated with the BMI formula to provide accurate results based on user inputs.This is my Individual Project.</p>
+                        <h4>Implemented Authentication, BMI Calculation, BMI Data</h4>
+                        <div className={projectstyle.tech}>
+                            <span><b> Tech Stack</b></span>
+                            <div style={{ display: "flex" }}>
+
+                                <p>React</p>
+                                <p>MongoDb</p>
+                                <p>Node Js</p>
+                                <p>Express JS</p>
+                            </div>
+                        </div>
+
+                        <div className={projectstyle.buttons}>
+                            <a href="https://github.com/abhishekkhanna2710/BMI_Calculator" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://bmicalcultor.netlify.app/" target="_blank"><i class="fa-solid fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
