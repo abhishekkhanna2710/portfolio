@@ -15,9 +15,7 @@ function About() {
                 </div>
 
                 <div className={aboutstyle.about_content}>
-                    <p>Hi! I am Abhishek Khanna and I am an aspiring Full Stack Web developer at Masai School.
-                        <br />
-                        As a developer I enjoy coding and Solving DSA problems. Moreover One of my strongest skills is creativity and it helps me a lot in web designs I have created various end to end website clone using MERN stack
+                    <p>A Web Designer turned <b>MERN Stack Web Developer</b> with problem solving mindset, passionate Engineer and keen to learn new technologies and frameworks. Experienced in working on various projects through remote collaboration & Individually and looking forward to challenge my skills and contribute to the organization to give the best.
                     </p>
 
                     {/* contact details */}
