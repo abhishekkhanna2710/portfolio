@@ -61,8 +61,8 @@ function Project() {
                         </div>
 
                         <div className={projectstyle.buttons}>
-                            <a href="https://github.com/abhishekkhanna2710/ZoomCar" target="_blank"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://zoomcarpro.netlify.app/" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                            <a href="https://github.com/abhishekkhanna2710/Zoom_car_backend" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://zoomcarr.netlify.app/" target="_blank"><i class="fa-solid fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
