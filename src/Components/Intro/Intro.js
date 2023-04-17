@@ -11,7 +11,7 @@ function Intro() {
                     <span className={introStyle.spantag}>Hi, I am</span>
                     <h1 className={introStyle.htag}>Abhishek <span><i>Khanna</i> </span> </h1>
                     <h2>Full Stack Web Developer</h2>
-                    <p>Very passionate , Enthusiastic and Dedicated towards my work</p>
+                    <p>Problem-solver, Enthusiastic, Passionate & results-driven results-driven</p>
                     <div className={introStyle.btns}>
                         <button> <a href="https://drive.google.com/file/d/1shXU-IH-X5Ij_D2QuOudpzm1j3DV6w3R/view" target="_blank" >Download CV</a> </button>
                         {/* <button> <a href={PDF} download >Download CV</a> </button> */}

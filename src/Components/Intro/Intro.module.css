@@ -43,11 +43,11 @@
 }
 
 .intro_me h2 {
-    font-size: 28px;
+    font-size: 39px;
 }
 
 .intro_me p {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -87,12 +87,12 @@
 
 .btns button:nth-of-type(2):hover {
     background-color: #F34B20;
-    color: white;
+    color: white !important;
     border: none;
 }
 
 .my_image {
-    width:480px;
+    width: 480px;
 }
 
 
